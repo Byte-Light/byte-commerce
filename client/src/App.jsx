@@ -19,12 +19,9 @@ import CheckAuth from './components/common/check-auth'
 import UnauthPage from './pages/unauth-page'
 
 function App() {
-  const isAuthenticated = true;
-  const user = {
-    name: 'yeamin',
-    role: 'admin'
-  }
-
+  const isAuthenticated = false;
+  const user = null;
+  
   return (
     <div className='flex flex-col overflow-hidden bg-white'>
 
